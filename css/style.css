@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DynaPuff:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Gowun+Dodum&display=swap");
+
+@media screen and (max-width: 500px) {
+  .no-btn {
+    top: 517px !important;
+  }
+
+  .container {
+    border: 2px red solid;
+    width: 100% !important;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  /* border: 2px red solid; */
+  width: 100%;
+  height: 100vh;
+}
+
+.content-box {
+  border: 2px black solid;
+  border-radius: 10px;
+  width: 470px;
+  height: 470px;
+  background: linear-gradient(to left, #ffafcc, #bde0fe);
+}
+
+.content-title {
+  font-family: "DynaPuff", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  padding: 20px;
+}
+
+.content-text {
+  /* border: 1px red solid; */
+  margin: 40px 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content-text p {
+  font-weight: 600;
+  /* display: none; */
+}
+
+.decision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decision-main {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  position: absolute;
+  width: 250px;
+  height: inherit;
+  font-size: 20px;
+  padding: 10px 0;
+  background-color: #ffafcc;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #494a4b;
+}
+
+.no-btn {
+  top: 340px;
+}
